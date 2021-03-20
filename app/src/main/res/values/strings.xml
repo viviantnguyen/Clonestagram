@@ -13,4 +13,9 @@
     <string name="take_pic">Take picture</string>
     <string name="submit">Submit</string>
     <string name="logout">Log out</string>
+    <!-- Strings within post -->
+    <string name="username">Username</string>
+    <string name="descrip">Description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

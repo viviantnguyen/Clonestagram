@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/ivPost"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/descrip"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUsername"
+        android:layout_marginTop="8dp"
+        android:textColor="#6C6C6C"
+        tools:text="@string/descrip" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPost"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#221F1F"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="@string/username" />
+</RelativeLayout>
